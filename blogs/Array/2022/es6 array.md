@@ -2,9 +2,9 @@
 title: ES6 数组
 date: 2022-01-08
 tags:
- - ES6 Array
+ - es6 array
 categories: 
- - ES6 Array
+ - es6 array
 
 ---
 

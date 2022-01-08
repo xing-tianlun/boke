@@ -4,9 +4,9 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
-  home: true,
-  heroImage: '/ttt.png',
-  heroText: null,
+  // home: true,
+  // heroImage: '/ttt.png',
+  // heroText: null,
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
   dest: 'public',
@@ -51,7 +51,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
+      '/docs/git/': [
         'git',
         // 'theme',
         // 'plugin',
