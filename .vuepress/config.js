@@ -36,8 +36,8 @@ module.exports = {
         text: 'Docs',
         icon: 'reco-message',
         items: [{
-          text: 'vuepress-reco',
-          link: '/docs/theme-reco/'
+          text: 'git推送',
+          link: '/docs/git/'
         }]
       },
       {
