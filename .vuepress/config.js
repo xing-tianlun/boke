@@ -5,7 +5,7 @@ module.exports = {
     }
   },
   // home: true,
-  // heroImage: '/ttt.png',
+  heroImage: '/ttt.png',
   // heroText: null,
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
@@ -37,7 +37,7 @@ module.exports = {
         icon: 'reco-message',
         items: [{
           text: 'git推送',
-          link: '/docs/git/'
+          link: '/docs/git/git.md'
         }]
       },
       {
