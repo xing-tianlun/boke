@@ -7,7 +7,7 @@ categories:
  - git
 ---
 
-## git 同步到 github
+git 同步到 github
 
 
 

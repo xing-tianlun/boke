@@ -52,7 +52,7 @@ module.exports = {
     ],
     sidebar: {
       '/docs/theme-reco/': [
-        '',
+        'git',
         // 'theme',
         // 'plugin',
         // 'api'
