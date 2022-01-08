@@ -9,7 +9,7 @@ categories:
 
 ## git 同步到 github
 
-```js
+
 git init
 git add .
 git commit -m '注释'
@@ -24,15 +24,15 @@ $ git pull --rebase origin master
 等远程仓库里面有了内容之后，下次再从本地库上传内容的时候只需下面这样就可以了：
 $ git push origin master。
 至此就完成了将本地项目上传到Github的整个过程。
-```
 
 
 
-```js
+
+
 清除本地缓存 git rm -r --cached .
 查看所有分支 git branch
 生成ssh密钥 ssh-keygen -t rsa -C "gudujianjsk@gmail.com"
-```
+
 
 
 
