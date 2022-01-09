@@ -1,15 +1,14 @@
 module.exports = {
-  locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
-  },
-  home: true,
-  heroImage: '/ttt.png',
-  heroText: null,
+
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
   dest: 'public',
+  themeConfig: {
+    type: 'blog',
+    home: true,
+    heroImage: '/ttt.png',
+    heroText: null,
+  },
   head: [
     ['link', {
       rel: 'icon',
