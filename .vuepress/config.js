@@ -75,18 +75,18 @@ module.exports = {
         email: '',
         link: ''
       },
-      // {
-      //   title: '午后南杂',
-      //   desc: 'Enjoy when you can, and endure when you must.',
-      //   email: '1156743527@qq.com',
-      //   link: 'https://www.recoluan.com'
-      // },
-      // {
-      //   title: 'vuepress-theme-reco',
-      //   desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-      //   avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-      //   link: 'https://vuepress-theme-reco.recoluan.com'
-      // },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: '1156743527@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
     ],
     logo: '/logo.png',
     // 搜索设置
@@ -126,8 +126,8 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: [
-    /* [
+  /* plugins: [
+    [
       require('./plugins/KanBanNiang'),
       {
         theme: ['blackCat'],
@@ -149,7 +149,7 @@ module.exports = {
           right: '80px'
         }
       }
-    ], */
+    ],
     [
       require('./plugins/BgMusic'),
       {
@@ -185,5 +185,5 @@ module.exports = {
         separator: '-'
       }
     ]
-  ]
+  ] */
 }
