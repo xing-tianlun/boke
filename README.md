@@ -25,9 +25,10 @@
 # - title: Tomorrow
 #   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 home: true
-bgImage: 'https://photo.smallsunnyfox.com/images/blog/bg.png'
+bgImage: 'https://wx1.sinaimg.cn/mw2000/005Hu0PKly1gy79un5fv6j319o0pkwls.jpg'
 bgImageStyle: {
-  height: '400px'
+  height: '500px'
 }
+heroText: null
 isShowTitleInHome: false
 ---
