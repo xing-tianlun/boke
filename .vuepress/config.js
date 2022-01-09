@@ -4,7 +4,7 @@ module.exports = {
   heroText: null,
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
-  dest: 'public',
+  dest: 'blog',
   head: [
     ['link', {
       rel: 'icon',
@@ -17,6 +17,7 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    type: 'blog',
     nav: [{
         text: 'Home',
         link: '/',

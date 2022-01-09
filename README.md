@@ -25,7 +25,7 @@
 # - title: Tomorrow
 #   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 home: true
-bgImage: 'https://wx1.sinaimg.cn/mw2000/005Hu0PKly1gy79un5fv6j319o0pkwls.jpg'
+bgImage: 'https://github.com/xing-tianlun/img/blob/main/imgs/bing_03.jpg?raw=true'
 bgImageStyle: {
   height: '500px'
 }
