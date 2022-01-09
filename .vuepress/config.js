@@ -1,14 +1,10 @@
 module.exports = {
-  dest: 'blog',
-  theme: 'reco',
+  home: true,
+  heroImage: '/ttt.png',
+  heroText: null,
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
-  themeConfig: {
-    type: 'blog',
-    home: true,
-    heroImage: '/ttt.png',
-    heroText: null,
-  },
+  dest: 'public',
   head: [
     ['link', {
       rel: 'icon',
@@ -19,8 +15,8 @@ module.exports = {
       content: 'width=device-width,initial-scale=1,user-scalable=no'
     }]
   ],
+  theme: 'reco',
   themeConfig: {
-    type: 'blog',
     nav: [{
         text: 'Home',
         link: '/',
@@ -71,22 +67,22 @@ module.exports = {
     },
     friendLink: [{
         title: '人生',
-        desc: '路漫漫',
+        desc: '路曼曼',
         email: '',
         link: ''
       },
-      {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
-      },
+      // {
+      //   title: '午后南杂',
+      //   desc: 'Enjoy when you can, and endure when you must.',
+      //   email: '1156743527@qq.com',
+      //   link: 'https://www.recoluan.com'
+      // },
+      // {
+      //   title: 'vuepress-theme-reco',
+      //   desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+      //   avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      //   link: 'https://vuepress-theme-reco.recoluan.com'
+      // },
     ],
     logo: '/logo.png',
     // 搜索设置
@@ -125,65 +121,5 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  },
-  /* plugins: [
-    [
-      require('./plugins/KanBanNiang'),
-      {
-        theme: ['blackCat'],
-        width: 200,
-        height: 400,
-        modelStyle: {
-          position: 'fixed',
-          right: '70px',
-          bottom: '50px',
-          opacity: '0.9' 
-        },
-        messageStyle: {
-          position: 'fixed',
-          right: '70px',
-          bottom: '380px'
-        },
-        btnStyle: {
-          bottom: '60px',
-          right: '80px'
-        }
-      }
-    ],
-    [
-      require('./plugins/BgMusic'),
-      {
-        audios: [{
-            name: '我再没见过 像你一般的星空',
-            artist: 'Seto',
-            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-          },
-          // {
-          //   name: '萤火之森',
-          //   artist: 'CMJ',
-          //   url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-          //   cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-          // }
-        ]
-      }
-    ],
-    [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: {
-          message: '发现新内容可用',
-          buttonText: '刷新'
-        }
-      }
-    ],
-    [
-      'permalink-pinyin',
-      {
-        lowercase: true,
-        separator: '-'
-      }
-    ]
-  ] */
+  }
 }
