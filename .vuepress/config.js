@@ -20,6 +20,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
+    type: 'blog',
     nav: [{
         text: 'Home',
         link: '/',
@@ -125,4 +126,64 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  plugins: [
+    /* [
+      require('./plugins/KanBanNiang'),
+      {
+        theme: ['blackCat'],
+        width: 200,
+        height: 400,
+        modelStyle: {
+          position: 'fixed',
+          right: '70px',
+          bottom: '50px',
+          opacity: '0.9' 
+        },
+        messageStyle: {
+          position: 'fixed',
+          right: '70px',
+          bottom: '380px'
+        },
+        btnStyle: {
+          bottom: '60px',
+          right: '80px'
+        }
+      }
+    ], */
+    [
+      require('./plugins/BgMusic'),
+      {
+        audios: [{
+            name: '我再没见过 像你一般的星空',
+            artist: 'Seto',
+            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
+          // {
+          //   name: '萤火之森',
+          //   artist: 'CMJ',
+          //   url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+          //   cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+          // }
+        ]
+      }
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: {
+          message: '发现新内容可用',
+          buttonText: '刷新'
+        }
+      }
+    ],
+    [
+      'permalink-pinyin',
+      {
+        lowercase: true,
+        separator: '-'
+      }
+    ]
+  ]
 }
