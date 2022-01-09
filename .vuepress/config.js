@@ -1,8 +1,8 @@
 module.exports = {
-
+  dest: 'blog',
+  theme: 'reco',
   title: "一个简单的生活",
   description: 'Talk is cheap,show me the code.',
-  dest: 'public',
   themeConfig: {
     type: 'blog',
     home: true,
@@ -19,7 +19,6 @@ module.exports = {
       content: 'width=device-width,initial-scale=1,user-scalable=no'
     }]
   ],
-  theme: 'reco',
   themeConfig: {
     nav: [{
         text: 'Home',
@@ -71,7 +70,7 @@ module.exports = {
     },
     friendLink: [{
         title: '人生',
-        desc: '路曼曼',
+        desc: '路漫漫',
         email: '',
         link: ''
       },
@@ -125,5 +124,5 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
 }
