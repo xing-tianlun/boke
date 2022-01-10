@@ -46,11 +46,11 @@ module.exports = {
     ],
     sidebar: {
       '/docs/git/': [
-        'git',
-        // 'theme',
-        // 'plugin',
-        // 'api'
-      ]
+        'git'
+      ],
+      '/docs/vue/': [
+        'vue'
+      ],
     },
     type: 'blog',
     // 博客设置
