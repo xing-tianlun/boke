@@ -45,16 +45,10 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/': [{
-          title: 'Git',
-          collapsable: true,
-          children: ['git']
-        },
-        {
-          title: 'Vue',
-          collapsable: true,
-          children: ['vueBook']
-        },
+      '/docs/': [
+        "",
+        "git",
+        "vueBook",
       ]
     },
 
