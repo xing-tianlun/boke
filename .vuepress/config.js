@@ -46,11 +46,10 @@ module.exports = {
     ],
     sidebar: {
       '/docs/': [
-        "git 推送",
-        "vue 笔记",
+        'git',
+        'vueBook',
       ]
     },
-
     type: 'blog',
     // 博客设置
     blogConfig: {
