@@ -1,9 +1,8 @@
 module.exports = {
   home: true,
-  heroImage: '/ttt.png',
   heroText: null,
   title: "一个简单的生活",
-  description: 'study',
+  description: '',
   dest: 'public',
   head: [
     ['link', {
@@ -84,7 +83,7 @@ module.exports = {
       //   link: 'https://vuepress-theme-reco.recoluan.com'
       // },
     ],
-    logo: '/logo.png',
+    logo: 'https://github.com/xing-tianlun/img/blob/main/imgs/logo.png?raw=true',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -96,7 +95,7 @@ module.exports = {
     // 作者
     author: '行天伦(xing-tianlun)',
     // 作者头像
-    authorAvatar: '/bingbing.png',
+    authorAvatar: 'https://github.com/xing-tianlun/img/blob/main/imgs/bingbing.png?raw=true',
     // 备案号
     record: 'xing',
     // 项目开始时间
