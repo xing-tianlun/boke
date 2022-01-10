@@ -45,12 +45,17 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/git/': [
-        'git'
-      ],
-      '/docs/vue/': [
-        'vueBook'
-      ],
+      '/docs/': [{
+          title: 'Git',
+          collapsable: true,
+          children: ['git']
+        },
+        {
+          title: 'Vue',
+          collapsable: true,
+          children: ['vueBook']
+        },
+      ]
     },
 
     type: 'blog',
@@ -71,18 +76,18 @@ module.exports = {
         email: '',
         link: ''
       },
-      // {
-      //   title: '午后南杂',
-      //   desc: 'Enjoy when you can, and endure when you must.',
-      //   email: '1156743527@qq.com',
-      //   link: 'https://www.recoluan.com'
-      // },
-      // {
-      //   title: 'vuepress-theme-reco',
-      //   desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-      //   avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-      //   link: 'https://vuepress-theme-reco.recoluan.com'
-      // },
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: '1156743527@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
     ],
     logo: 'https://github.com/xing-tianlun/img/blob/main/imgs/logo.png?raw=true',
     // 搜索设置
