@@ -29,7 +29,7 @@ bgImage: 'https://github.com/xing-tianlun/img/blob/main/imgs/bing_01.jpg?raw=tru
 bgImageStyle: {
   height: '500px'
 }
-tagline: A.
+tagline: 
 heroText: null
 isShowTitleInHome: false
 ---
