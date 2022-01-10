@@ -31,11 +31,11 @@ module.exports = {
         icon: 'reco-message',
         items: [{
             text: 'git推送',
-            link: '/docs/git.md'
+            link: '/docs/git/git.md'
           },
           {
             text: 'vue 笔记',
-            link: '/docs/vueBook.md'
+            link: '/docs/vue/vueBook.md'
           },
         ]
       },
@@ -53,12 +53,17 @@ module.exports = {
       '/docs/': [{
           title: 'Git',
           collapsable: true,
-          children: ['git/git']
+          children: ['git/git','git/git2']
         },
         {
           title: 'Vue',
           collapsable: true,
-          children: ['vue/vueBook']
+          children: ['vue/vueBook','vue/vuex','vue/vue_Router']
+        },
+        {
+          title: 'ES6 Array',
+          collapsable: true,
+          children: ['Array/ES6_Array']
         },
       ]
     },
