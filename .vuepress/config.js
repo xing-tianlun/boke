@@ -50,7 +50,17 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/blogs/': []
+      '/docs/': [{
+          title: 'Git',
+          collapsable: true,
+          children: ['git/git']
+        },
+        {
+          title: 'Vue',
+          collapsable: true,
+          children: ['vue/vueBook']
+        },
+      ]
     },
     type: 'blog',
     // 博客设置
