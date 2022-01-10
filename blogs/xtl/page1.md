@@ -11,7 +11,7 @@ categories:
 
 
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/WTiaVY8Eic3uSv0licAn6y3hhJicNoJwmxhnibrndnS5XyoxMgQmSLe6LpW7f8gUPJts8Jeh8HofXptBTH3Gy82mLVA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\Desktop\File\vuepress-theme-reco-demo-demo-1.x\blogs\xtl\img\img2.png)
 
 
 
