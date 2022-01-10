@@ -3,7 +3,7 @@ module.exports = {
   heroImage: '/ttt.png',
   heroText: null,
   title: "一个简单的生活",
-  description: '',
+  description: ' ',
   dest: 'public',
   head: [
     ['link', {
