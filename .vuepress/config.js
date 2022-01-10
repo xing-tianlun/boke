@@ -52,6 +52,7 @@ module.exports = {
         'vue'
       ],
     },
+
     type: 'blog',
     // 博客设置
     blogConfig: {
