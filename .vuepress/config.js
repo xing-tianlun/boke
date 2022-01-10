@@ -46,9 +46,11 @@ module.exports = {
     ],
     sidebar: {
       '/docs/git/': [
-        'git',
+        'git'
+      ],
+      '/docs/vue/': [
         'vueBook'
-      ]
+      ],
     },
 
     type: 'blog',
