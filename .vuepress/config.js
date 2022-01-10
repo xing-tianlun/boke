@@ -30,9 +30,14 @@ module.exports = {
         text: 'Docs',
         icon: 'reco-message',
         items: [{
-          text: 'git推送',
-          link: '/docs/git/git.md'
-        }]
+            text: 'git推送',
+            link: '/docs/git.md'
+          },
+          {
+            text: 'vue 笔记',
+            link: '/docs/vueBook.md'
+          },
+        ]
       },
       {
         text: 'Contact',
@@ -45,10 +50,11 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/': [
-        'git 推送',
-        'vue 笔记',
-      ]
+      '/blogs/': [{
+        title: 'ES6 Array',
+        collapsable: true,
+        children: ['ES6_Array']
+      }, ]
     },
     type: 'blog',
     // 博客设置
