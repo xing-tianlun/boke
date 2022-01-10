@@ -29,6 +29,6 @@ bgImage: 'https://github.com/xing-tianlun/img/blob/main/imgs/bing_01.jpg?raw=tru
 bgImageStyle: {
   height: '500px'
 }
-heroText: ''
+heroText: null
 isShowTitleInHome: false
 ---
