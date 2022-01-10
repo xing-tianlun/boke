@@ -50,11 +50,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/blogs/': [{
-        title: 'ES6 Array',
-        collapsable: true,
-        children: ['ES6_Array']
-      }, ]
+      '/blogs/': []
     },
     type: 'blog',
     // 博客设置
