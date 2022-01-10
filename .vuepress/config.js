@@ -3,7 +3,7 @@ module.exports = {
   heroImage: '/ttt.png',
   heroText: null,
   title: "一个简单的生活",
-  // description: '',
+  description: 'study',
   dest: 'public',
   head: [
     ['link', {
@@ -91,6 +91,7 @@ module.exports = {
     // 自动形成侧边导航
     // sidebar: 'auto',
     // 最后更新时间
+    displayAllHeaders: false,
     lastUpdated: 'Last Updated',
     // 作者
     author: '行天伦(xing-tianlun)',
