@@ -58,7 +58,7 @@ module.exports = {
         {
           title: 'Vue',
           collapsable: true,
-          children: ['vue/vueBook','vue/vuex','vue/vue_Router']
+          children: ['vue/vueBook','vue/vuex','vue/vue_Router','vue/vue3(1)']
         },
         {
           title: 'ES6 Array',
