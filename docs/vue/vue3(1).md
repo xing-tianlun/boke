@@ -7,10 +7,71 @@ categories:
  - vue3
 ---
 
-#### 1. :ref 的使用
+#### 1. ref 的使用获取节点
 
+- 在 vue2 中
+
+```vue
+<template>
+	<div>
+    <ul>
+      <li v-for="i,k in list" :key="k" ref="todos"></li>
+  	</ul>
+  </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      list: [
+        {id: 1, name: "狗蛋"},
+        {id: 2, name: "张三"},
+      ]
+    }
+  },
+  methods: {
+    getref() {
+      console.log(this.$refs.todos)
+    }
+  }
+}
+</script>
 ```
-// 在 vue2 中，
+
+- 在 vue3 中
+
+```vue
+<template>
+	<div>
+    <ul>
+      <li v-for="i,k in list" :key="k" :ref="todos"></li>
+  	</ul>
+  </div>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      list: [
+        {id: 1, name: "狗蛋"},
+        {id: 2, name: "张三"},
+      ],
+      reftodo: [],
+    }
+  },
+  methods: {
+    // 需要创建和 ref 同名的方法，该函数会自动调用，将获取到的节点依次传入该函数中
+    todos(el) {
+      if(el) {
+        this.reftodo.push(el)
+      }
+    },
+    getref() {
+      console.log(this.reftodo) // 获取到的是一个 proxy 对象
+    }
+  }
+}
+</script>
 ```
 
 
@@ -46,9 +107,13 @@ vue3 建议使用 ref=""   this.$refs.组件ref名，来获取组件中的相关
 
 ```vue
 // 在 vue2 中响应式是通过 Object.defineProperty,把这些 property 全部转为 getter/setter。
-// 当你把一个普通的 JavaScript 对象传入 Vue 实例作为 data 选项，Vue 将遍历此对象所有的 property，并使用 Object.defineProperty 把这些 property 全部转为 getter/setter。
+// 当你把一个普通的 JavaScript 对象传入 Vue 实例作为 data 选项，
+// Vue 将遍历此对象所有的 property，并使用 Object.defineProperty 
+// 把这些 property 全部转为 getter/setter。
+
 // 检测变化的注意事项
-// 由于 JavaScript 的限制，Vue 不能检测数组和对象的变化。尽管如此我们还是有一些办法来回避这些限制并保证它们的响应性。
+// 由于 JavaScript 的限制，Vue 不能检测数组和对象的变化。
+// 尽管如此我们还是有一些办法来回避这些限制并保证它们的响应性。
 ```
 
 ##### 对于对象
