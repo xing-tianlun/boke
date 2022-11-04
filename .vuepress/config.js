@@ -53,12 +53,12 @@ module.exports = {
       '/docs/': [{
           title: 'Git',
           collapsable: true,
-          children: ['git/git','git/git2']
+          children: ['git/git', 'git/git2']
         },
         {
           title: 'Vue',
           collapsable: true,
-          children: ['vue/vueBook','vue/vuex','vue/vue_Router','vue/vue3(1)']
+          children: ['vue/vueBook', 'vue/vuex', 'vue/vue_Router', 'vue/vue3(1)']
         },
         {
           title: 'ES6 Array',
@@ -101,7 +101,7 @@ module.exports = {
     logo: '/logo.png',
     // 搜索设置
     search: true,
-    searchMaxSuggestions: 10,
+    searchMaxSuggestions: 12,
     // 自动形成侧边导航
     // sidebar: 'auto',
     // 最后更新时间
