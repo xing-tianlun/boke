@@ -29,7 +29,7 @@ bgImage: '/bing_01.jpg'
 bgImageStyle: {
   height: '500px'
 }
-tagline: 
+tagline: xing
 heroText: null
 isShowTitleInHome: false
 
